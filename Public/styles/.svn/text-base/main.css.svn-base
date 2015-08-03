@@ -1,0 +1,162 @@
+@font-face{font-family:'FS Me Web Regular';src:url('http://www.humana.com/library/fonts/fsmeweb-regular-fd.eot');src:url('http://www.humana.com/library/fonts/fsmeweb-regular-fd.eot?ie') format('embedded-opentype'),url('http://www.humana.com/library/fonts/fsmeweb-regular-fd.woff') format('woff'),url('http://www.humana.com/library/fonts/fsmeweb-regular-fd.ttf') format('truetype'),url('http://www.humana.com/library/fonts/fsmeweb-regular-fd.svg#FSMeWebRegular') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'FS Me Web Bold';src:url('http://www.humana.com/library/fonts/fsmeweb-bold-fd.eot');src:url('http://www.humana.com/library/fonts/fsmeweb-bold-fd.eot?ie') format('embedded-opentype'),url('http://www.humana.com/library/fonts/fsmeweb-bold-fd.woff') format('woff'),url('http://www.humana.com/library/fonts/fsmeweb-bold-fd.ttf') format('truetype'),url('http://www.humana.com/library/fonts/fsmeweb-bold-fd.svg#FSMeWebBold') format('svg');font-style:normal}
+@font-face{font-family:'FS Me Web Italic';src:url('http://www.humana.com/library/fonts/fsmeweb-italic-fd.eot');src:url('http://www.humana.com/library/fonts/fsmeweb-italic-fd.eot?ie') format('embedded-opentype'),url('http://www.humana.com/library/fonts/fsmeweb-italic-fd.woff') format('woff'),url('http://www.humana.com/library/fonts/fsmeweb-italic-fd.ttf') format('truetype'),url('http://www.humana.com/library/fonts/fsmeweb-italic-fd.svg#FSMeWebItalic') format('svg');font-weight:normal;font-style:italic}
+@font-face{font-family:'FS Me Web Light';src:url('http://www.humana.com/library/fonts/fsmeweb-light-fd.eot');src:url('http://www.humana.com/library/fonts/fsmeweb-light-fd.eot?ie') format('embedded-opentype'),url('http://www.humana.com/library/fonts/fsmeweb-light-fd.woff') format('woff'),url('http://www.humana.com/library/fonts/fsmeweb-light-fd.ttf') format('truetype'),url('http://www.humana.com/library/fonts/fsmeweb-light-fd.svg#FSMeWebLight') format('svg');font-weight:200;font-style:normal}
+@font-face{font-family:'Mayfield';src:url('http://www.humana.com/library/fonts/mayfield.eot');src:url('http://www.humana.com/library/fonts/mayfield.eot?#iefix') format('embedded-opentype'),url('http://www.humana.com/library/fonts/mayfield.woff') format('woff'),url('http://www.humana.com/library/fonts/mayfield.ttf') format('truetype'),url('http://www.humana.com/library/fonts/mayfield.svg#Mayfield') format('svg');
+font-weight:normal;font-style:normal}
+body{padding-bottom:40px;background-color:#fff;color:#484641}
+img{max-width:100%}
+h1,h2,h3,h4,legend{font-family: "FS Me Web Light",Arial,Helvetica,sans-serif;}
+h1{font-family:'FS Me Web Light',Helvetica;font-weight:normal;font-size:2.2em;line-height:1.3em;margin-bottom:10px;color:#5c9a1b}
+h2{color:#1d5b2d;font-size:1.8em}
+hr.white{border-color:#fff;}
+label{font-family: "FS Me Web Bold",Arial,Helvetica,sans-serif;font-weight:normal}
+.or{font-family: "Mayfield",Arial,Helvetica,Verdana,sans-serif;display: block;text-align: center;font-size: 30px;color:#aa005f;}
+.disclaimer{font-size:.8em}
+.padtop{margin-top: 80px}
+.btn-primary,.btn-default{text-decoration:none;font-family:"FS Me Web Regular",Arial,Helvetica,sans-serif;border:0;box-shadow:1px 1px 3px #ccc;-moz-box-shadow:1px 1px 3px #ccc;-webit-box-shadow:1px 1px 3px #ccc}
+.btn-primary{color:#fff;background-color:#236e37;font-size:1.28em;}
+.btn-primary:hover{background:#236e37;background:-moz-linear-gradient(top,#236e37 0,#1d5b2d 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#236e37),color-stop(100%,#1d5b2d));background:-webkit-linear-gradient(top,#236e37 0,#1d5b2d 100%);background:-o-linear-gradient(top,#236e37 0,#1d5b2d 100%);background:-ms-linear-gradient(top,#236e37 0,#1d5b2d 100%);background:linear-gradient(to bottom,#236e37 0,#1d5b2d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#236e37',endColorstr='#1d5b2d',GradientType=0)}
+.btn-default:hover{background:#f9f9f9}
+.btn-default{color:#1d5b2d;background:#f9f9f9;background:-moz-linear-gradient(top,#f9f9f9 0,#eee 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f9f9f9),color-stop(100%,#eee));background:-webkit-linear-gradient(top,#f9f9f9 0,#eee 100%);background:-o-linear-gradient(top,#f9f9f9 0,#eee 100%);background:-ms-linear-gradient(top,#f9f9f9 0,#eee 100%);background:linear-gradient(to bottom,#f9f9f9 0,#eee 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9f9f9',endColorstr='#eeeeee',GradientType=0)}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary { color: #ffffff; background-color: #145225; border-color: #145225; }
+.btn-faq{background:0;margin:.5em auto 1em;display:block;padding:0}
+.btn-start-over{width:80%;margin:0 auto;display:block}
+.btn-group .btn-primary{font-family:'FS Me Web Light'}
+.link-secondary, .link-secondary:hover{color: #aa005f;}
+.link-secondary{ font-family: "FS Me Web Regular",Arial,Helvetica,sans-serif; font-size: 16px; text-decoration: none; border-radius: 0;background: #fff url(../images/link-secondary.png) 0 3px no-repeat;padding-left: 23px;}
+.link-secondary span{ border-bottom: 1px dotted #aa005f;display: inline-block;}
+.link-secondary span:hover{border-bottom-style: solid;}
+.link-secondary.btn{background-color:transparent !Important;padding-top: 0;}
+.link-tertiary{font-family:'FS Me Web Regular';font-size:1.2em;color:#046ab2;border-bottom:1px dotted #046ab2}
+.alert-info{color:#fff;background-color:#5c9a1b;font-family:'FS Me Web Regular';border:0}
+.navbar-brand{padding:0}
+.navbar-default{-webkit-box-shadow:0 2px 3px #bbb;-moz-box-shadow:0 2px 3px #bbb;box-shadow:0 2px 3px #bbb;background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #ececec 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ffffff 0%,#ececec 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ffffff 0%,#ececec 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ffffff 0%,#ececec 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+}
+.navbar-header h1{margin:0;width:40%;max-width:220px}
+.navbar-collapse{max-height:none;padding-bottom:1em}
+  .navbar-collapse>section{ padding:10px; }
+.navbar-toggle{background:#fff;}
+.form-signin form,.form-contact form{max-width:440px;margin:2em auto}
+.form-signin .form-signin-heading{margin-bottom:10px}
+.form-signin .form-control{position:relative;font-size:1.2em;height:auto;padding:.5em;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.form-signin .form-control:focus{z-index:2}
+.form-signin input[type="text"]{margin-bottom:1em;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.form-contact div+div{margin-top:1em}
+.form-contact .form-control+.form-control{border-top-left-radius:0;border-top-right-radius:0}
+.form-contact .form-control.last{border-bottom-left-radius: 8px;border-bottom-right-radius: 8px;margin-bottom:1em}
+.form-control{display:inline;border-radius:8px;-webkit-box-shadow:inset 2px 2px 5px #ddd;box-shadow:inset 2px 2px 5px #ddd}
+.form-contact .form-signin-heading,.form-contact .checkbox{margin-bottom:10px}
+.form-contact .checkbox{font-weight:normal}
+.form-contact .form-control{position:relative;font-size:16px;height:auto;padding:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.form-contact .form-control:focus{z-index:2}
+.form-contact .form-control{margin-bottom:-1px;border-bottom-left-radius:0;border-bottom-right-radius:0}
+.form-contact input[type="password"]{margin-bottom:10px;border-top-left-radius:0;border-top-right-radius:0}
+.form-contact form + form{margin-top:4em;}
+.input-group .form-control{border-bottom-left-radius: 8px}
+.input-group-btn:last-child > .btn { padding: 10px 16px 9px; min-width: 108px; }
+.family-details .age{width:40%}
+.table th{font-family:"FS Me Web Bold",Arial,Helvetica,sans-serif;font-weight:normal;}
+.table th:first-child{padding-left:0}
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th { background-color: #fff;}
+.refineResults .clearfix{margin-top:1em}
+.refineResults .col-md-4>label,.refineResults .col-md-3 fieldset>label{width:56px}
+.display-results h4{margin-top:0}
+.display-results .row+.row{border-top:1px solid #eee;padding-top:1em;margin-top:1em}
+.display-results .monthly-cost{list-style:none;padding:0;margin:0;}
+.display-results .btn{width:80%;margin:1em auto;display:block}
+.display-results .monthly-total{font-size:1.2em;color: #5c9a1b;font-family: "FS Me Web Bold",Arial,Helvetica,sans-serif;font-weight: normal;}
+.legend{margin: 14px 0 0 60px;}
+.catastrophic{background-color: #aa005f;}
+.catastrophic:hover{background: #aa005f !Important;}
+.bronze{background-color: #997438;}
+.bronze:hover{background: #75664E;}
+.silver{background-color: #A0A0A0;}
+.silver:hover{background: #A0A0A0;}
+.gold{background-color: #FFC200;}
+.gold:hover{background: #FFC200;}
+.platinum{background-color: #CFCFCF;}
+.platinum:hover{background: #CFCFCF;}
+h2 small{display:block;font-size:.5em;margin:.5em 0}
+.normal{font-weight:normal}
+
+@media(min-width:768px) and (max-width:992px){
+.legend{margin: 14px 0 0 0px;}
+}
+
+@media(min-width:768px){
+  .btn-start-over{width:100%}
+  .navbar-collapse{width:auto;border-top:0;box-shadow:none; }
+  .navbar-collapse.collapse{display:none !important;height:auto !important;padding-bottom:0;overflow:hidden !important}
+  .navbar-toggle{display:block;margin-top:20px}
+  .container>.navbar-header,.container>.navbar-collapse{margin-right:-15px;margin-left:0}
+  .refineResults .form-control{width:100%}
+  .navbar-header{float:none}
+  .form-control{width:100%}
+  .btn-group .btn{padding:6px 8px}
+  .col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11{float:left}
+  .col-md-12{width:100%}
+  .col-md-11{width:91.66666666666666%}
+  .col-md-10{width:83.33333333333334%}
+  .col-md-9{width:75%}
+  .col-md-8{width:66.66666666666666%}
+  .col-md-7{width:58.333333333333336%}
+  .col-md-6{width:50%}
+  .col-md-5{width:41.66666666666667%}
+  .col-md-4{width:33.33333333333333%}
+  .col-md-3{width:25%}
+  .col-md-2{width:16.666666666666664%}
+  .col-md-1{width:8.333333333333332%}
+}
+@media(min-width:992px){
+  .refineResults .form-control{width:60%}
+  .legend{margin: 14px 0 0 60px;}
+  .form-signin form,.form-contact form{max-width:55%} 
+}
+/*!
+ * Datepicker for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+ .datepicker{top:0;left:0;padding:4px;margin-top:1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.datepicker:before{content:'';display:inline-block;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid #ccc;border-bottom-color:rgba(0,0,0,0.2);position:absolute;top:-7px;left:6px}
+.datepicker:after{content:'';display:inline-block;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #fff;position:absolute;top:-6px;left:7px}
+.datepicker>div{display:none}
+.datepicker table{width:100%;margin:0}
+.datepicker td,.datepicker th{text-align:center;width:20px;height:20px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.datepicker td.day:hover{background:#eee;cursor:pointer}
+.datepicker td.day.disabled{color:#eee}
+.datepicker td.old,.datepicker td.new{color:#999}
+.datepicker td.active,.datepicker td.active:hover{color:#fff;background-color:#006dcc;background-image:-moz-linear-gradient(top,#08c,#04c);background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));background-image:-webkit-linear-gradient(top,#08c,#04c);background-image:-o-linear-gradient(top,#08c,#04c);background-image:linear-gradient(to bottom,#08c,#04c);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);border-color:#04c #04c #002a80;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);*background-color:#04c;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25)}
+.datepicker td.active:hover,.datepicker td.active:hover:hover,.datepicker td.active:focus,.datepicker td.active:hover:focus,.datepicker td.active:active,.datepicker td.active:hover:active,.datepicker td.active.active,.datepicker td.active:hover.active,.datepicker td.active.disabled,.datepicker td.active:hover.disabled,.datepicker td.active[disabled],.datepicker td.active:hover[disabled]{color:#fff;background-color:#04c;*background-color:#003bb3}
+.datepicker td.active:active,.datepicker td.active:hover:active,.datepicker td.active.active,.datepicker td.active:hover.active{background-color:#039 \9}
+.datepicker td span{display:block;width:47px;height:54px;line-height:54px;float:left;margin:2px;cursor:pointer;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}
+.datepicker td span:hover{background:#eee}
+.datepicker td span.active{color:#fff;background-color:#006dcc;background-image:-moz-linear-gradient(top,#08c,#04c);background-image:-webkit-gradient(linear,0 0,0 100%,from(#08c),to(#04c));background-image:-webkit-linear-gradient(top,#08c,#04c);background-image:-o-linear-gradient(top,#08c,#04c);background-image:linear-gradient(to bottom,#08c,#04c);background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);border-color:#04c #04c #002a80;border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);*background-color:#04c;filter:progid:DXImageTransform.Microsoft.gradient(enabled = false);color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25)}
+.datepicker td span.active:hover,.datepicker td span.active:focus,.datepicker td span.active:active,.datepicker td span.active.active,.datepicker td span.active.disabled,.datepicker td span.active[disabled]{color:#fff;background-color:#04c;*background-color:#003bb3}
+.datepicker td span.active:active,.datepicker td span.active.active{background-color:#039 \9}
+.datepicker td span.old{color:#999}
+.datepicker th.switch{width:145px}
+.datepicker th.next,.datepicker th.prev{font-size:21px}
+.datepicker thead tr:first-child th{cursor:pointer}
+.datepicker thead tr:first-child th:hover{background:#eee}
+.input-append.date .add-on i,.input-prepend.date .add-on i{display:block;cursor:pointer;width:16px;height:16px}
+.multiselect-container{position:absolute;list-style-type:none;margin:0;padding:0}
+.multiselect-container .input-group{margin:5px}
+.multiselect-container>li{padding:0}
+.multiselect-container>li>a.multiselect-all label{font-weight:bold}
+.multiselect-container>li>label.multiselect-group{margin:0;padding:3px 20px 3px 20px;height:100%;font-weight:bold}
+.multiselect-container>li>a>label{margin:0;height:100%;cursor:pointer;font-weight:normal}
+.multiselect-container>li>a>label.radio,.multiselect-container>li>a>label.checkbox{margin:0}
+.multiselect-container>li>a>label>input[type="checkbox"]{margin-bottom:5px}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn{border-top-left-radius:4px;border-bottom-left-radius:4px}
